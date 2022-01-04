@@ -109,3 +109,20 @@ footer{
     line-height: 100px;
     color: #fff;
 }
+
+@media(max-width:768px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height:   auto;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 200px;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+}
